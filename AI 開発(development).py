@@ -85,7 +85,7 @@ while True:
             if lemma in words:
                 scores[category] += 1
                 matched = True
-    if not mached:
+    if not matched:
         unknown_words.append(lemma)
 
     if "?" in text:
