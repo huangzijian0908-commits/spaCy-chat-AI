@@ -8,9 +8,9 @@ It is composed of simple word groups and rule-based responses, so the system is 
 - Simple rule-based responses
 - Easy to customize and expand
 - Designed for learning and simulation
-- can response to some general topics
+- can respond to some general topics
 ## How it works
-The system processes user input with Python　code in AI_development.py.
+The system processes user input with Python code in AI_development.py.
 It reads the user's input, checks simple word groups, and returns a matching response.
 ## Future improvements
 - Add more general responses to handle unexpected inputs
@@ -26,3 +26,4 @@ Any suggestions or improvements are welcome!
 I'm glad to know where can I improve!
 ## Update
 -2026_5/4.-Improved responses
+- Unknown words handling
