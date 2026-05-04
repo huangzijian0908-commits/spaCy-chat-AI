@@ -12,18 +12,18 @@ It is composed of simple word groups and rule-based responses, so the system is 
 ## How it works
 The system processes user input with Python code in AI_development.py.
 It reads the user's input, checks simple word groups, and returns a matching response.
-When you talk the specific topic about school, it will give you the special answer.
+When you talk about school-related topics, the system provides special responses.
 ## Future improvements
 - Add more general responses to handle unexpected inputs
 - Improve the code to be more convenient and natural(for example, using Vader)
 - Expand the conversation dataset
 - Add fallback responses for unclear messages
-- Add a noun such as apple, elephant, python
+- Improve handling of unknown nouns (e.g., apple, elephant, python).
 ## Notes
 I'm a high school student in Japan, Learning Python and NLP; in order to learn Computer science in foreign universities.
 Some parts of this project were improved with the help of AI tools(like finding bugs), but all core ideas, structure, and implementation were done by me.
 ## Feedback
 Any suggestions or improvements are welcome!
 I'm glad to know where can I improve!
-## comments
+## Comments
 I'm high school student so maybe I can't fix or make a new code immediately but I'll try my best!!
