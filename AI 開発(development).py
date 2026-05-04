@@ -77,12 +77,16 @@ while True:
         understanding = "ok"
 
     scores = {key: 0 for key in word_groups}
-
+    #changed place
+    unknown_words = []
     for token in meaningful_tokens:
         lemma = token.lemma_.lower()
         for category, words in word_groups.items():
             if lemma in words:
                 scores[category] += 1
+                matched = True
+    if not mached:
+        unknown_words.append(lemma)
 
     if "?" in text:
         intent = "question"
@@ -97,8 +101,12 @@ while True:
     print("Scores:")
     for k, v in scores.items():
         print(f"  {k}: {v}")
-
+        
     topic = extract_topic_by_max(scores)
+#changed place
+    if topic == "general" and unknown_words:
+        topic = "".join(unknown_words)
+        
     sentiment = get_sentiment(scores)
     update_state(state, topic, sentiment)
     reply = generate_reply(topic, sentiment, state)
