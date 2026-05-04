@@ -12,6 +12,7 @@ It is composed of simple word groups and rule-based responses, so the system is 
 ## How it works
 The system processes user input with Python code in AI_development.py.
 It reads the user's input, checks simple word groups, and returns a matching response.
+When you talk the specific topic about school, it will give you the special answer.
 ## Future improvements
 - Add more general responses to handle unexpected inputs
 - Improve the code to be more convenient and natural(for example, using Vader)
@@ -24,3 +25,5 @@ Some parts of this project were improved with the help of AI tools(like finding 
 ## Feedback
 Any suggestions or improvements are welcome!
 I'm glad to know where can I improve!
+## comments
+I'm high school student so maybe I can't fix or make a new code immediately but I'll try my best!!
