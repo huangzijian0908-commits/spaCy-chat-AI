@@ -24,6 +24,3 @@ Some parts of this project were improved with the help of AI tools(like finding 
 ## Feedback
 Any suggestions or improvements are welcome!
 I'm glad to know where can I improve!
-## Update
--2026_5/4.-Improved responses
-- Unknown words handling
